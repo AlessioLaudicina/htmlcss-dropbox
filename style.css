@@ -79,3 +79,29 @@ main{
     background-color: whitesmoke;
     border: dashed;
 }
+
+.container-flex{
+    height: 250px;
+    width: 100%;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-enterprise{
+    width: 50%;
+    height: 50%;
+    background-color: royalblue;
+    
+}
+
+.container-flex-2{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(255, 127, 47);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
