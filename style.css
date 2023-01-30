@@ -64,6 +64,10 @@ main{
     justify-content: center;
 }
 
+.business{
+    padding-top: 80px;
+}
+
 .title-column{
     height: 100px;
     width: 100%;
