@@ -3,3 +3,25 @@
     margin: 0;
     border: border-box;
 }
+
+
+header{
+    height: 80px;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left{
+    height: 20px;
+    width: 500px;
+    background-color: wheat;
+}
+
+.footer-right{
+    height: 20px;
+    width: 400px;
+    background-color: wheat;
+}
