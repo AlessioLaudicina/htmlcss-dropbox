@@ -5,6 +5,7 @@
 }
 
 
+
 header{
     height: 80px;
     width: 100%;
@@ -103,5 +104,29 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.section{
+    height: 1000px;
+    width: 100%;
+}
+
+
+
+
+.sec-column{
+    height: 900px;
+    background-color: rgb(186, 198, 21);
+    display: flex;
+    justify-content: center;
+}
+
+
+.sec{
+    display: flex;
+    width: calc(100% / 3);
+    background-color: whitesmoke;
+    border: dashed;
+    height: 300px;
 }
 
