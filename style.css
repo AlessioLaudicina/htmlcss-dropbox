@@ -12,6 +12,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
 }
 
 .header-left{
@@ -53,4 +54,28 @@ main{
     width: 50%;
     background-color: yellow;
 
+}
+
+.menu-column{
+    height: 900px;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+}
+
+.title-column{
+    height: 100px;
+    width: 100%;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.col{
+    display: flex;
+    width: calc(50% / 3);
+    background-color: whitesmoke;
+    border: dashed;
 }
