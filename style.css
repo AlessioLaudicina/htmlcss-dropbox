@@ -14,14 +14,43 @@ header{
     align-items: center;
 }
 
-.footer-left{
+.header-left{
     height: 20px;
     width: 500px;
     background-color: wheat;
 }
 
-.footer-right{
+.header-right{
     height: 20px;
     width: 400px;
     background-color: wheat;
+}
+
+main{
+    height: 750px;
+    width: 100%;
+    background-color: pink;
+
+}
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+
+.main-content{
+    width: 100%;
+    height: 100%;
+    background-color: violet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.float-content{
+    height: 50%;
+    width: 50%;
+    background-color: yellow;
+
 }
