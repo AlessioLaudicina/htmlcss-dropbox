@@ -192,6 +192,7 @@ main{
     justify-content: center;
     width: 100%;
     flex-wrap: wrap;
+    margin-top: 50px;
 }
 
 
@@ -215,7 +216,7 @@ main{
     display: flex;
     justify-content: center;
     margin-bottom: 100px;
-    margin-top: 200px;
+    margin-top: 250px;
 
 }
 
