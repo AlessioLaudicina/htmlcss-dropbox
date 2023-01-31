@@ -182,6 +182,7 @@ main{
 .title-client{
     display: flex;
     justify-content: center;
+    margin-bottom: 100px;
 
 }
 
@@ -201,7 +202,6 @@ main{
 .small-square{
     height: 50%;
     width: 50%;
-    border: dashed;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -219,7 +219,7 @@ main{
 .final-sec{
     height: 300px;
     width: 100%;
-    background-color: rgb(130, 130, 220);
+    background-color: rgb(180	208	231	);
 }
 
 .faq{
