@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: sans-serif;
+}
+
 
 
 header{
@@ -80,8 +84,8 @@ main{
 }
 
 .title-float-content{
-    height: 50%;
     width: 50%;
+    padding-top: 200px;
 
 }
 
@@ -141,13 +145,36 @@ main{
     
 }
 
+.flex-enterprise-2{
+    width: 80%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    
+}
+
 .container-flex-2{
     height: 500px;
     width: 100%;
-    background-color: rgb(255, 127, 47);
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.float-right{
+    width: 30%;
+    padding-left: 20px;
+
+}
+
+.button-white{
+    border: 1px solid black;
+    background-color: whitesmoke;
+}
+
+.button-white a{
+   text-decoration: none;
+   color: black;
 }
 
 .section{
