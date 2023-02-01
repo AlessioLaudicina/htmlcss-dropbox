@@ -285,6 +285,29 @@ footer{
     width: 100%;
 }
 
+footer ul{
+    color: white;
+    width: calc(100% / 5);
+}
+
+footer li{
+    color: white;
+    list-style: none;
+    padding: 5px;
+    font-size: 15px;
+    
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.footer-menu-list{
+    padding-top: 50px;
+}
+
 /* ! Utility  */
 
 .w-30{ width: 30%;}
