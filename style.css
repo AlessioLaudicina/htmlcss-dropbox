@@ -163,18 +163,15 @@ main{
 }
 
 .container-flex{
-    height: 250px;
     width: 100%;
-    background-color: greenyellow;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 100px 0;
 }
 
 .flex-enterprise{
-    width: 50%;
-    height: 50%;
-    background-color: royalblue;
+    border: 1px solid silver;
     
 }
 
@@ -379,6 +376,12 @@ footer a{
 .p-2{padding: 20px}
 .p-3{padding: 40px}
 .p-4{padding: 100px}
+
+.pl-0{padding-left: 0}
+.pl-1{padding-left: 10px}
+.pl-2{padding-left: 20px}
+.pl-3{padding-left: 40px}
+.pl-4{padding-left: 100px}
 
 
 
