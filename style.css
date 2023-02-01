@@ -49,6 +49,7 @@ nav a{
 button{
     text-align: center;
     padding: 10px;
+    border: none;
 }
 
 .btn-blue{
@@ -131,15 +132,21 @@ main{
     display: flex;
     width: calc(50% / 3);
     background-color: whitesmoke;
-    border: dashed;
+    border: 1px solid black;
     margin: 10px;
+    flex-direction: column;
 }
 
 .plan-header{
 
     padding: 10px;
     text-align: center;
+    border-bottom: 1px solid
 
+}
+
+.plan-article li{
+    text-indent: -10px;
 }
 
 .container-flex{
@@ -294,7 +301,7 @@ footer li{
     color: white;
     list-style: none;
     padding: 5px;
-    font-size: 15px;
+    font-size: 13px;
     
 }
 
