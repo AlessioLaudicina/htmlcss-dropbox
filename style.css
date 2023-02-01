@@ -59,6 +59,10 @@ button{
 
 }
 
+.btn-flex{
+    margin: 0 30px;
+}
+
 .d-flex{
     display: flex;
 
@@ -130,9 +134,9 @@ main{
 
 .col{
     display: flex;
-    width: calc(50% / 3);
+    width: calc(80% / 3);
     background-color: whitesmoke;
-    border: 1px solid black;
+    border: 1px solid gray;
     margin: 10px;
     flex-direction: column;
 }
@@ -141,12 +145,18 @@ main{
 
     padding: 10px;
     text-align: center;
-    border-bottom: 1px solid
+    border-bottom: 1px solid gray;
 
 }
 
 .plan-article li{
     text-indent: -10px;
+    padding: 10px;
+    list-style: none;
+}
+
+.plan-article i{
+    padding-right: 5px;
 }
 
 .container-flex{
