@@ -72,6 +72,10 @@ button{
     flex-wrap: wrap;
 }
 
+i.fa-solid.fa-check {
+    color: blue;
+}
+
 
 /* ! Main  */
 
