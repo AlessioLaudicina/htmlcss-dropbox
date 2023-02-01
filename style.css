@@ -148,6 +148,10 @@ main{
 
 }
 
+.plan-header i{
+    padding-right: 5px;
+}
+
 .plan-article li{
     text-indent: -10px;
     padding: 10px;
@@ -286,9 +290,9 @@ main{
 }
 
 .faq{
-    height: 200px;
     width: 100%;
     background-color: white;
+    padding: 50px 0;
 }
 
 .faq-container-flex{
