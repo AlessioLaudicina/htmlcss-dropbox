@@ -8,10 +8,11 @@
     <title>Dropbox</title>
 </head>
 <body>
-    <header>
+    <header id="topnav">
         <div class="header-left">
             <nav class="d-flex">
-                <img src="./img/logo-small.png" alt="logo" class="logo">
+               
+                <a href="#"> <img src="./img/logo-small.png" alt="logo" class="logo"></a>
                 <a href="#">Perchè Dropbox</a>
                 <a href="#">Funzioni</a>
                 <a href="#">Piani e Prezzi</a>
@@ -25,7 +26,7 @@
                 <a href="#">Supporto</a>
                 <a href="#">Ufficio vendite</a>
                 <a href="#">Accedi</a>
-                <button>Inizia</button>
+                <button class="btn-blue">Inizia</button>
             </nav>
 
 
@@ -34,31 +35,35 @@
     </header>
 
     <main>
-         <div class="main-content">
-                <div class="title-float-content">
-                  <h1 style="font-size: 50px; line-height: 1.3;">Tutto ciò che ti serve per il lavoro in un unico posto</h1>
-                  <div class="float-content">
+        
+         <section id="jumbotron">
+            <div class="container">
+                <h1>Tutto cio che ti serve in un unico posto</h1>
+                <div class="d-flex">
+                    <div class="w-30">
+                        <p class="mt-2 mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quidem tenetur provident voluptas non quasi quas deserunt nulla, illo necessitatibus.</p>
 
-                    
+                        <button class="btn-blue">Inizia la tua prova gratuita</button>
 
 
-                    
-                    <div class="img">
-                        <img src="./img/business-feature-coordinate-it.png" alt="" style=" height: 100%;">
+
+
 
                     </div>
-                    
-                </div>
-                </div>
 
-    
-
-        </div>
+                    <div class="w-70">
+                        <img src="./img/jumbo.png" alt="" style="width: 100%;">
+                        
+                    </div>
+                </div>
+            </div>
+            
+         </section>
 
         <div class="container">
             
-            <div class="business">
-                <div class="title-column">
+            <div class="business mt-3 mb-3">
+                <div class="title-column ">
                      <h1>Trova il piano business che fa per te</h1>
                      
 
@@ -69,7 +74,22 @@
                     
                 
 
-                    <div class="col"></div>                    
+                    <div class="col">
+                        <header class="plan-header">Professional</header>
+                        <article class="plan-article">
+                            <h3>Professional</h3>
+                            <div class="price">$</div>
+                            <div class="time">mese</div>
+
+                            <ul>
+                                <li>1 utente</li>
+                                <li>User</li>
+                                <li>User</li>
+                                <li>User</li>
+
+                            </ul>
+                        </article>
+                    </div>                    
                     <div class="col"></div>
                     <div class="col"></div>
 
@@ -259,7 +279,7 @@
 
     </main>
 
-    <footer>
+    <footer class="container">
 
 
    </footer>
