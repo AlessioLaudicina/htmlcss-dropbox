@@ -168,9 +168,6 @@ main{
 
 .container-flex{
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 100px 0;
 }
 
@@ -230,12 +227,9 @@ main{
 
 
 .sec{
-    display: flex;
     width: calc(100% / 3);
     height: 300px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    
 
 }
 
@@ -277,8 +271,15 @@ main{
 
 .small-square-img{
 
-    height: 40%;
-    width: 90%;
+    width: 50%;
+    filter: invert(1);
+}
+
+
+
+.square-central img{
+    width: 50%;
+
 }
 
 
